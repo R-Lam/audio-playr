@@ -1,0 +1,95 @@
+body {
+    background-color: #202040 !important;
+    font-family: 'Roboto';
+    margin: 0;
+    padding-top: 0.1px;
+}
+
+h1 {
+    font-size: 120px !important;
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 80px !important;
+    }
+    .container {
+        padding-left: 7% !important;
+        padding-right: 20% !important;
+    }
+    .c-r {
+        padding-left: 20% !important;
+        padding-right: 0% !important;
+    }
+    .mdc-card {
+        width: 120px !important;
+    }
+    
+}
+
+@media (max-width: 850px) {
+    .mdc-card {
+        width: 120px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 40px !important;
+    }
+    .mdc-card {
+        width: 120px !important;
+    }
+}
+
+.container {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 5%;
+}
+
+.mdc-card {
+    background-color: #543864 !important;
+    color: #fff;
+    width: 125px;
+    border: 1px solid #543864;
+    border-radius: 1.25rem;
+}
+
+#mdc-image {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.material-icons {
+    font-size: 122px !important;
+}
+
+.a-btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.a-btn:focus {
+    color: #ff6363 !important;
+}
+
+.a-btn:visited {
+    color: #ff6363 !important;
+}
+
+.a-btn:active {
+    color: #ff6363 !important;
+}
+
+.c-r {
+    margin-top: 10%;
+    padding-left: 45%;
+    padding-right: 35%;
+}
