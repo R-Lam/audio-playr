@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -11,11 +12,24 @@
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </head>
 <body>
+    <!-- The video -->
+    <div class="video-bh">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lM02vNMRRB0?controls=0&autoplay=1&loop=1&mute=1" frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <div class="c-r">
         <div class="mdc-card">
             <a onclick="resume()" class="a-btn"><i class="material-icons mdc-button__icon" aria-hidden="true">play_circle_filled</i></a>
             <a onclick="stop()" class="a-btn"><i class="material-icons mdc-button__icon" aria-hidden="true">pause_circle_filled</i></a>        </div>
+    </div>
 
+    <div id="vidtop-content">
+        <div class="vid-info">
+            <h1>Enjoy!</h1>
+            <p>Play - Usar en caso de presionar pausa.</p>
+            <p>Pause - Pausa la transmision.</p>
+        </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js"></script>
     <script src="js/main.js"></script>
